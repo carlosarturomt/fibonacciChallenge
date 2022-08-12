@@ -1,0 +1,22 @@
+@import "variables";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html main {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: $font;
+  overflow: scroll;
+  overflow-x: hidden;
+  background: $color__blue--light;
+}
